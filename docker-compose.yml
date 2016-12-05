@@ -13,12 +13,12 @@ services:
 
   api:
     build: ./api
-    command: contact_us
+    command: go run contact_us.go
     volumes:
       - ./api/src:/go/src/github.com/LastZactionHero/contact_us/
     ports:
       - "3000:3000"
-    depends_on:
+    links:
       - db
     env_file:
     - './api/.env'
