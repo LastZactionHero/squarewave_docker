@@ -6,8 +6,8 @@ services:
       - ./front/src:/app
       - ./front/nginx.conf:/etc/nginx/nginx.conf:ro
     ports:
-      - "8000:80"   # Dist
-      - "8001:8001" # Dev
+      - "3002:80"   # Dist
+      - "3001:3001" # Dev
     depends_on:
       - api
 
