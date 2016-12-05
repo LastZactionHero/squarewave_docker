@@ -1,6 +1,6 @@
 [submodule "api/src"]
 	path = api/src
-	url = https://github.com/LastZactionHero/contact_us
+	url = git@github.com:LastZactionHero/contact_us.git
 [submodule "front/src"]
 	path = front/src
-	url = https://github.com/LastZactionHero/squarewave_site
+	url = git@github.com:LastZactionHero/squarewave_site.git
